@@ -3,110 +3,67 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div>
+        <h2>1. From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.</h2>
+        <p><strong>Favourite Tasks:</strong></p>
+        <ul>
+        <li><strong>Respond to 50+ support requests via email every day:</strong> I thrive on this task. It&apos;s like solving a new puzzle with each email, and the joy of helping someone overcome their hurdles is immensely satisfying.</li>
+        <li><strong>Write and maintain support articles and docs pages:</strong> I see this as painting a picture with words. It&apos;s about making complex concepts understandable, and I love the challenge it presents.</li>
+        <li><strong>Create video tutorials:</strong> This task is like directing a movie where the star is the feature or use case I&apos;m explaining. It&apos;s creative, fun, and has a direct impact on our users.</li>
+        <li><strong>Analyze hundreds of support tickets to spot trends:</strong> This is like being a detective, looking for patterns and clues in a sea of data. The insights drawn can drive proactive solutions, making it a rewarding task.</li>
+        <li><strong>Work with the product team to develop a new feature based on feedback from customers:</strong> This task is exciting as it&apos;s about turning user feedback into tangible improvements in our product. It&apos;s like seeing your ideas come to life.</li>
+        </ul>
+        <p><strong>Least Favourite Tasks:</strong></p>
+        <ul>
+        <li><strong>Scheduling time-off coverage:</strong> While it&apos;s a necessary task, it&apos;s more administrative and less dynamic than the others. However, I understand its importance in ensuring seamless support coverage.</li>
+        <li><strong>Manage a support team:</strong> This task can be challenging as it involves juggling multiple responsibilities. But it&apos;s a learning curve I&apos;m willing to climb.</li>
+        <li><strong>Find and recruit teammates for the support team:</strong> This task can be a bit daunting as it requires finding the right balance between technical prowess and cultural fit. But it&apos;s a challenge I&apos;m up for.</li>
+        <li><strong>Help resolve billing issues for customers:</strong> This task can be intricate and requires a deep understanding of various billing systems. But I&apos;m always ready to dive deep and learn.</li>
+        <li><strong>Run ticket review sessions to make sure tone is consistent:</strong> This task can be repetitive, but I understand its importance in maintaining a consistent voice in our support.</li>
+        </ul>
+        <h2>2. What do you want to learn or do more of at work?</h2>
+        <p>At work, I&apos;m eager to dive deeper into the latest technologies and how they can enhance user support. I also aspire to hone my leadership skills and contribute to a positive team culture. For example, I would love to learn more about AI and machine learning and how they can be leveraged to improve customer support.</p>
+        <h2>3. Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful?</h2>
+        <p>In a previous role, I encountered a critical service failure. It was like being thrown into a maze with an unknown exit. But by systematically isolating the issue, delving into logs, and identifying an unusual pattern, I found my way out. The service was restored, and the absence of recurring errors was my victory flag. For instance, when a critical service was failing due to an unknown error, I was able to solve it by identifying an unusual pattern in the logs and implementing a fix.</p>
+        <h2>4. When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?</h2>
+        <p>Choosing between Edge Functions, Serverless Functions, or Edge Middleware with Vercel is like choosing the right tool for the job. Edge Functions are my go-to for customizing content at the edge level, Serverless Functions for running server-side code without server management, and Edge Middleware for adding custom logic at the edge network before reaching the application. For example, if you need to customize the content based on the user&apos;s location, Edge Functions would be the ideal choice.</p>
+        <h2>5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you&apos;ve not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?</h2>
+        <p>If a customer needs help with an unfamiliar framework or technology, I&apos;d approach it like exploring a new city. I&apos;d start by gathering information, asking for details about the issue, steps taken, and expected vs. actual results. I&apos;d also request a link to the repository, if possible, to get a better lay of the land. For instance, if a customer is having trouble deploying a Next.js app, I would ask for any error messages they&apos;re seeing, the steps they&apos;ve taken so far, and a link to the repository if possible.</p>
+        <h2>6. The customer from question 5 replies to your response with the below: “I&apos;m so frustrated. I&apos;ve been trying to make this work for hours and I just can&apos;t figure it out. It must be a platform issue so just fix it for me instead of asking me questions.” Please write a follow-up reply to the customer.</h2>
+        <p>Subject: Re: Your Recent Support Request</p>
+        <p>Dear [Customer&apos;s Name],</p>
+        <p>I understand that you&apos;re feeling frustrated, and I&apos;m really sorry that you&apos;re experiencing this issue. I&apos;m here to help you, and together, we&apos;ll get this sorted out. While it&apos;s possible that this could be a platform issue, it could also be something else. If you could provide me with a bit more information, I&apos;ll do my best to get this resolved for you as quickly as possible.</p>
+        <p>Best Regards,</p>
+        <p>[Your Name]</p>
+        <h2>7. A customer writes in to the Helpdesk asking &quot;How do I do a redirect from the /blog path to https://example.com?&quot; Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.</h2>
+        <p>Subject: Re: Redirecting /blog to another URL</p>
+        <p>Dear [Customer&apos;s Name],</p>
+        <p>To redirect from the /blog path to https://example.com, you can add a redirect rule in your &apos;vercel.json&apos; file. It&apos;s like setting up a signpost that guides all traffic from /blog to https://example.com. For example, you can add the following code to your &apos;vercel.json&apos; file:</p>
+        <code>
+        {JSON.stringify({
+        "redirects": [
+        { "source": "/blog", "destination": "https://example.com", "permanent": true }
+        ]
+        }, null, 2)}
+        </code>
+        <p>Once you&apos;ve added this code, any traffic to /blog will be automatically redirected to https://example.com.</p>
+        <p>Best Regards,</p>
+        <p>[Your Name]</p>
+        <h2>8. A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.</h2>
+        <p>Subject: Preventing Your Site from Being Indexed by Search Engines</p>
+        <p>Dear [Customer&apos;s Name],</p>
+        <p>If you want your site to be invisible to search engines, you can add a &apos;robots.txt&apos; file to your project. It&apos;s like putting up a &apos;Do Not Disturb&apos; sign for web crawlers. For example, you can create a &apos;robots.txt&apos; file with the following content:</p>
+        <pre>
+        User-agent: *
+        Disallow: /
+        </pre>
+        <p>This will tell web crawlers not to index any pages on your site.</p>
+        <p>Best Regards,</p>
+        <p>[Your Name]</p>
+        <h2>9. What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?</h2>
+        <p>One common problem customers might face is deployment issues. It&apos;s like hitting a roadblock on a journey. To help them, we could provide detailed error messages, comprehensive documentation, and responsive support. In the long run, we could improve our platform&apos;s stability and ease of use based on their feedback, effectively paving a smoother road for them.</p>
+        <h2>10. How could we improve or alter this familiarisation exercise?</h2>
+        <p>This exercise could be improved by adding more real-world scenarios and providing feedback throughout. It&apos;s like turning a monologue into a dialogue, making the exercise more engaging and informative.</p>
       </div>
     </main>
   );
